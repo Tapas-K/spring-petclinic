@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git 'https://github.com/AnjuMeleth/spring-petclinic.git'
+                git 'https://github.com/Tapas-K/spring-petclinic.git'
             }
         }
         stage('Build'){
